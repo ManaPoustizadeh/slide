@@ -25,3 +25,8 @@ h6{
     width: 16.6%;
     text-align: center;
 }
+
+#number_titles li h4{
+    display: inline;
+    /*width: 25%;*/
+}
