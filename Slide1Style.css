@@ -1,11 +1,14 @@
 body{
-    /*direction: rtl;*/
+    direction: rtl;
     margin: 0px;
 }
 
 #topHeader{
     background-color: #455a64;
     color: white;
+    position: fixed;
+    width: 100%;
+    min-width:100%;
 }
 
 h6{
@@ -15,4 +18,10 @@ h6{
 
 #downHeader{
     background-color: #607c8a;
+    color: white;
+}
+#navTop li{
+    display: inline;
+    width: 16.6%;
+    text-align: center;
 }
