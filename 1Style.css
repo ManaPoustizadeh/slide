@@ -20,13 +20,26 @@ h6{
     background-color: #607c8a;
     color: white;
 }
+
+hr{
+    border-color: black;
+}
+
 #navTop li{
     display: inline;
     width: 16.6%;
     text-align: center;
 }
 
-#number_titles li h4{
+#number_titles li{
     display: inline;
-    /*width: 25%;*/
+    /*align-content: center;*/
+}
+
+#number_titles{
+    display: inline;
+    position: relative;
+    top: 170px;
+    right: 100px;
+    color: dimgrey;
 }
