@@ -1,0 +1,18 @@
+body{
+    /*direction: rtl;*/
+    margin: 0px;
+}
+
+#topHeader{
+    background-color: #455a64;
+    color: white;
+}
+
+h6{
+    margin: 0px 10px;
+    direction: rtl;
+}
+
+#downHeader{
+    background-color: #607c8a;
+}
