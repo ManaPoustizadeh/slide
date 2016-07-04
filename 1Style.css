@@ -16,13 +16,13 @@ h6{
     direction: rtl;
 }
 
+hr{
+    border-color: black;
+}
+
 #downHeader{
     background-color: #607c8a;
     color: white;
-}
-
-hr{
-    border-color: black;
 }
 
 #navTop li{
