@@ -11,13 +11,9 @@ body{
     min-width:100%;
 }
 
-h6{
+h6, h5, h4, h3, h2, h1 {
     margin: 0px 10px;
     direction: rtl;
-}
-
-hr{
-    border-color: black;
 }
 
 #downHeader{
@@ -42,4 +38,17 @@ hr{
     top: 170px;
     right: 100px;
     color: dimgrey;
+}
+
+.circle {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:50px;
+    color:#fff;
+    line-height:500px;
+    text-align:center;
+    position: relative;
+    top: -25px;
+    background:#607c8a;
 }
