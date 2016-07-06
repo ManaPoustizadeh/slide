@@ -1,6 +1,8 @@
 body{
     direction: rtl;
     margin: 0px;
+    animation-name: appear;
+    animation-duration: 3s;
 }
 
 #topHeader{
@@ -27,6 +29,14 @@ h6, h5, h4, h3, h2, h1 {
     text-align: center;
 }
 
+#topNum{
+    margin-right: 95%;
+    margin-top: -30px;
+    background-color: #01e475;
+    /*float: left;*/
+    /*position: relative;*/
+}
+
 #number_titles li{
     display: inline;
     /*align-content: center;*/
@@ -40,9 +50,18 @@ h6, h5, h4, h3, h2, h1 {
     color: dimgrey;
 }
 
+#number_titles2{
+    display: inline;
+    position: relative;
+    top: 190px;
+    right: 100px;
+    color: dimgrey;
+    list-style-type: none;
+}
+
 .circle {
-    width:50px;
-    height:50px;
+    width:70px;
+    height:70px;
     border-radius:50%;
     font-size:50px;
     color:#fff;
@@ -51,4 +70,30 @@ h6, h5, h4, h3, h2, h1 {
     position: relative;
     top: -25px;
     background:#607c8a;
+}
+
+p{
+    color: white;
+    width: 0px;
+}
+
+.circle h2{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25%;
+    /*margin-right: 5px;*/
+}
+
+#endnum{
+    background-color: #01e475;
+}
+#end{
+    color: #01e475;
+}
+
+/*ANIMATION*/
+@keyframes appear {
+    from {margin-top: 100%;}
+    to {
+        margin-top:0%;}
 }
