@@ -2,17 +2,17 @@ body{
     direction: rtl;
     margin: 0px;
     animation-name: appear;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 #topHeader{
     background-color: #455a64;
-    color: white;
+    color: #8c9fa1;
     position: fixed;
     width: 100%;
     min-width:100%;
 }
-
+/*-----------------------------------------------------------------*/
 h6, h5, h4, h3, h2, h1 {
     margin: 0px 10px;
     direction: rtl;
@@ -21,6 +21,30 @@ h6, h5, h4, h3, h2, h1 {
 #downHeader{
     background-color: #607c8a;
     color: white;
+}
+
+#navTop li a{
+    color: #8c9fa1;
+
+}
+
+.myBorder{
+    position: absolute;
+    background-color: #01e475;
+    width: 100%;
+    height: 5px;
+    min-width: 100%;
+    margin-top: 20px;
+    display: none;
+}
+
+#navTop li a:hover + .myBorder{
+    display: block;
+    text-decoration: none;
+}
+#navTop li a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 #navTop li{
@@ -36,7 +60,7 @@ h6, h5, h4, h3, h2, h1 {
     /*float: left;*/
     /*position: relative;*/
 }
-
+/*---------------------------------------------------------------*/
 #number_titles li{
     display: inline;
     /*align-content: center;*/
